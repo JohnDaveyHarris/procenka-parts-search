@@ -1,0 +1,27 @@
+{
+  "name": "hsprice-parts-search",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Тестовое задание: клиентское React-приложение подбора автозапчастей и аналогов (API «Проценка»). React + Redux Toolkit, без TypeScript.",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.13.0",
+    "bootstrap": "^5.3.8",
+    "next": "^16.1.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-redux": "^9.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^9",
+    "eslint-config-next": "^16.1.1"
+  }
+}
